@@ -1,0 +1,183 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% Website: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{fontawesome5}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{comment}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%
+
+
+\begin{document}
+\setlength{\footskip}{5pt}.
+%----------HEADING-----------------
+\centering\textbf{\Large Matteo Calvanico} \\
+  \vspace{0.25in}
+  \centering{\small{\faPhone} +39-347-385-2782 \quad
+        \href{mailto:matteo.calvanico03@gmail.com}{\faEnvelope \underline{matteo.calvanico03@gmail.com}} \quad
+        \href{https://www.linkedin.com/in/matteo-calvanico/}{{\faLinkedin} \underline{Matteo Calvanico}} \quad
+        \href{https://github.com/MatteoCalvanico}{{\faGithub} \underline{MatteoCalvanico}}}
+
+%--------SKILLS------------
+\section{Competenze}
+\resumeSubHeadingListStart
+  \item{
+    \textbf{Linguaggi}{: Java, C\# (.NET 8.0), C++, C89, Python, Kotlin, Javascript, Typescript, SQL, GDScript, LaTex.}
+    \hfill
+    }
+  \item{
+    \textbf{Framework \& Librerie}{: Vue, Bootstrap, TensorFlow, Scikit Learn, PyTorch, CUDA, OpenCV, Pandas, Numpy, Gradle.}
+    \hfill
+    }
+  \item{
+    \textbf{Tools}{: Visual Studio, VS Code, Andorid Studio, Arduino, Google Cloud Console, Git, GitHub, Godot, Docker, Jenkins, Vagrant, Dockerhub.}
+    \hfill
+    }
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Formazione}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {"Alma Mater Studiorum" - Università di Bologna}{Cesena (FC), Italia}
+      {Laurea triennale in Tecnologie dei Sistemi Informatici"}{2022 -- Ongoing}
+      \resumeItemListStart
+          \resumeItem{Competenze}{Object-Oriented Programming (Java, C\#), Programmazione di sistemi mobili (Kotlin, Android Studio, Room, Gradle, Retrofit), Basi di dati (SQL, MySQL), Ingegneria dei sistemi web (JavaScript, TypeScript, CSS, SCSS/SASS, NodeJS, Vue.js, Bootstrap), Basi di Reti Neurali, Machine Learning, Elaborazione di immagini (OpenCV, CUDA, Python, PyTorch, TensorFlow, Scikit Learn, Pandas), 
+          Sistemi Embedded e Internet of Things (Arduino, ESP32, Raspberry Pi, MQTT), Piattaforme di sviluppo per automazione e virtualizzazione (Docker, Vagrant, Kubernetes, Active Directory), Sistemi di rete, Sviluppo in Asp.NET}
+      \resumeItemListEnd
+    \resumeSubheading
+      {I.T.T. "Blaise pascale"}{Cesena (FC), Italia}
+      {Diploma da perito informatico}{Settembre 2017 -- Giugno 2022}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Esperienze lavorative}
+\resumeSubHeadingListStart
+    \resumeSubheading{Maggioli S.P.A.}{Santarcangelo di Romagna (FC), Italia}{Intern Software Engineer}{Novembre 2024 -- Current}
+    \resumeItemListStart
+        \resumeItem{Tecnologie usate} {.}
+        \resumeItem{Descrizione}
+        {Azienda italiana specializzata in sviluppo di applicazioni per la pubblica amministrazione.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Progetti}
+  \resumeSubHeadingListStart
+  \resumeSubItem{\href{https://github.com/MatteoCalvanico/Mobile24-CalvanicoMonti-GameVault}{Game Vault}}
+      {Android app per il tracking della propria collezione di giochi, con la possibilità di raiting e ricerca.}
+	\resumeItemListStart
+		 \resumeItem{Play Store:}{l'applicazione è stata testata da 20 persone e approvata da Google, ora è disponibile per il download direttamente dal Google Play Store}
+		 \resumeItem{API:}{la ricerca viene fatta tramite api pubbliche, che forniscono tutte le informazioni necessarie sul gioco per poi essere
+mostrate all'utente; i file Json ritornati venivano gestiti tramite Moshi e Retrofit.}
+		 \resumeItem{DB:}{per salvare le informazioni in maniera persistente si è utilizzato Room.}
+	\resumeItemListEnd
+  \resumeSubItem{\href{https://github.com/MatteoCalvanico/GetEat}{GetEat}}
+      {Web app per la gestione di un ristorante, con la possibilità di acquistare prodotti per gli utenti e di gestirli da parte dell'admin.}
+	\resumeItemListStart
+		 \resumeItem{Multi-tecnologia}{ la web app è stata creata tramite il framework Vue.js, utilizzando typeScript e Scss con l'utilizzo di Express.js per gestire le chiamate al DB relazionale creato tramite SQL.}
+		 \resumeItem{Modularità}{: l'applicazione è stata divisa prima in Front-end/Back-end per poi passare ad una suddivisione ancora maggiore in file modulari all'interno di ciascuna parte.}
+		 \resumeItem{Autenticazione}{ l'applicazione prevede una parte di registrazione e login con controllo dei vari permessi, andando così a nascondere agli utenti base la parte dell'amministratore}
+              \resumeItem{Accessibilità}{l'obiettivo non era solo quello di avere una applicazione funzionante ma di avere anche una web app responsive e soprattuto accessibile.}
+	\resumeItemListEnd
+  \resumeSubItem{\href{https://github.com/MatteoCalvanico/pss23-Calvanico-Monti-Ghinelli-VirtualCasino}{Virtual Casinò}}
+      {Applicativo Desktop in Java che simuli alcuni giochi di un casinò, come Blackjack, Roulette e i dadi.}
+	\resumeItemListStart
+		 \resumeItem{MVC}{per rendere il progetto meno complesso e favorire una facile modifica e testabilità si è deciso di usare il Pattern MVC, andando a dividere la parte di presentazione da quella dei dati garantendo la comunicazione tra i due tramite il controller}
+		 \resumeItem{Collaborazione}{il progetto è sviluppato insieme ad altri due colleghi, questo ci ha permesso di avere un primo assaggio sul lavoro in team, portando a suddividere il lavoro in maniera equa, sentirci e discutere sul da farsi in maniera regolare tramite call virtuali e aiutarci in caso di difficoltà.}
+		 \resumeItem{Test-Driven Development}{una parte cruciale del progetto era quella di effettuare test periodici e automatizzati per far si che ogni parte funzioni correttamente, questo è stato possibile grazie a JUnit.}
+		 \resumeItem{Gradle}{per automatizzare la compilazione e l'esecuzione di test abbiamo utilizzato Gradle, che ci è stato molto utile anche per la gestione delle dipendenze.}
+	\resumeItemListEnd
+  \resumeSubItem{\href{https://github.com/MatteoCalvanico/MultiClass-Classification}{MultiClass Classification}}
+      {Rete neurale per la creazione e test di un modello di machine learning per la classificazione multiclasse di diversi tipi di frutta. La rete è una classica CNN con una funzione di attivazione non lineare (ReLU) con anche un ottimizzatore di tipo SGD.}
+	\resumeItemListStart
+		 \resumeItem{CONDA:}{Anaconda è stato fondamentale per creare un enviroment con tutto il necessario per lo sviluppo e la prova della rete.}
+		 \resumeItem{Multi-libreria}{Per creare, addestrare e testare la rete è stato necessario l'utilizzo di diverse librerie come Pytorch o OpenCV che ha permesso di modificare le immagini del dataset per aggiustare certi aspetti.}
+		 \resumeItem{Kaggle}{per trovare un dataset che fosse perfetto per le mie esigenze ho effettuato diverse ricerche per poi finire su Kaggle, che mi ha permesso anche di utilizzare le sue API per il dowload delle immagini.}
+	\resumeItemListEnd
+ \resumeSubItem{\href{https://github.com/MatteoCalvanico/DoomClone}{DoomClone}}
+      {Videogioco sviluppato in C++ simile ai vecchi classici come Doom o Wolfenstein 3D.}
+	\resumeItemListStart
+		 \resumeItem{Basi di computer grafica:}{per creare un effetto 3D tramite una mappa 2D mi sono cimentato nella tecnica del Raycasting, dove si utilizzano diverse formule matematiche per mostrare a schermo il contenuto di un vettore (che contiene la mappa), questo grazie a diversi "raggi che quando colpiscono un punto dove dovrebbe stare un muro o un nemico ne permetteno di ottenere la distanza e successivamente disegnarlo; questo viene fatto per ogni linea verticale dello schermo."}
+		 \resumeItem{SDL2:}{per mostrare a schermo il render e gestire i vari eventi è stato necessario usare la libreria SDL2.}
+		 \resumeItem{Event Handle:}{Per gestire diverse casistiche come l'eliminazione dei nemici, il movimento o l'apertura della porta è stato necessario un handle degli eventi nel loop principale del gioco, sempre tramite SDL2.}
+	\resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------LANGUAGES-----------------
+\begin{comment}
+\section{Languages}
+    \resumeSubHeadingListStart
+    \resumeItem
+      {Italian}{Native speaker}
+    \resumeItem
+      {English}{Level B2}
+  \resumeSubHeadingListEnd
+\end{comment}
+%-------------------------------------------
+\end{document}

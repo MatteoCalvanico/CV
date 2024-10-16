@@ -1,3 +1,3 @@
 # My personal CV - English Version
 
-### Last edit: 10-09-2024
+### Last edit: 16-10-2024

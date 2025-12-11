@@ -91,11 +91,11 @@
     \hfill
     }
   \item{
-    \textbf{Frameworks \& Libraries}{: Vue, Entity Framework, .NET, Bootstrap, TensorFlow, Scikit Learn, PyTorch, CUDA, OpenCV, Pandas, Numpy, Gradle.}
+    \textbf{Frameworks \& Libraries}{: Vue, React, Jest, Zod, Mongoose, Serverless Application Model (SAM), Entity Framework, .NET, Bootstrap, TensorFlow, Scikit Learn, PyTorch, CUDA, OpenCV, Pandas, Numpy, Gradle.}
     \hfill
     }
   \item{
-    \textbf{Tools}{: Visual Studio, VS Code, Andorid Studio, Arduino, Google Cloud Console, Git, GitHub, Godot, Docker, Jenkins, Dockerhub.}
+    \textbf{Tools}{: Visual Studio, VS Code, Andorid Studio, Arduino, Google Cloud Console, AWS, Git, GitHub, Godot, Docker, Jenkins, Dockerhub.}
     \hfill
     }
   \resumeSubHeadingListEnd
@@ -105,7 +105,7 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {"Alma Mater Studiorum" - University of Bologna}{Cesena (FC), Italy}
-      {\href{https://corsi.unibo.it/1cycle/ComputerSystemTechnologies}{\underline{Bachelor's Degree in Computer System Technologies}}}{2022 -- Ongoing}
+      {\href{https://corsi.unibo.it/1cycle/ComputerSystemTechnologies}{\underline{Bachelor's Degree in Computer System Technologies}}}{2022 -- 2025}
       \resumeItemListStart
           \resumeItem{Skills}{Object-Oriented Programming (Java, C\#), Mobile Systems Programming (Kotlin, Android Studio, Room, Gradle, Retrofit), Databases (SQL, MySQL), Web Systems Engineering (JavaScript, TypeScript, CSS, SCSS/SASS, NodeJS, Vue.js, Bootstrap), Basics of Neural Networks, Machine Learning, Image Processing (OpenCV, CUDA, Python, PyTorch, TensorFlow, Scikit Learn, Pandas), 
           Embedded Systems and Internet of Things (Arduino, ESP32, Raspberry Pi, MQTT), Development Platforms for Automation and Virtualization (Docker, Vagrant, Kubernetes, Active Directory), Network Systems, Development in Asp.NET}
@@ -121,6 +121,12 @@
 %-----------EXPERIENCE-----------------
 \section{Work Experience}
 \resumeSubHeadingListStart
+    \resumeSubheading{DMA - CX Company for B2B}{Cesena (FC), Italy}{Intern Software Engineer}{Aprile 2025 -- Agosto 2025}
+    \resumeItemListStart
+        \resumeItem{Technologies used} {AWS (Cloudformation, Lambda, API Gateway, SQS, Timestream, IoT Core, EC2), React, Grafana, Docker, GitHub Actions, MongoDB Atlas}
+        \resumeItem{Description}
+        {The collaboration with \emph{DMA} led to the development of a \emph{Dashboard}, where customer service operators of companies relying on DMA for their software solutions can monitor the current and past status of various devices used by different consumers, in order to provide targeted and functional support in case of failures or problems of any kind. The creation of the dashboard was not straightforward; before beginning the design and development of the product, it was necessary to acquire new knowledge and consolidate existing one across various technologies. The process was step-by-step, involving the development of smaller projects with progressively increasing difficulty, which collectively gathered the various skills necessary for dashboard development.}
+    \resumeItemListEnd
     \resumeSubheading{Maggioli S.P.A.}{Santarcangelo di Romagna (FC), Italy}{Intern Software Engineer}{November 2024 -- March 2025}
     \resumeItemListStart
         \resumeItem{Technologies used} {Angular, Java, Spring, Postman, Docker, MongoDB, GitLab}
@@ -132,6 +138,14 @@
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
+  \resumeSubItem{ECC Dashboard}
+      {Cloud-based application for customer support.}
+  \resumeItemListStart
+    \resumeItem{AWS}{the application, in its back-end part, uses various technologies from the AWS suite to function. Among these: \textbf{IoT Core} to retrieve data from field devices, \textbf{Timestream} to save incoming data, \textbf{Lambda} to perform operations on data sources and more.}
+    \resumeItem{Grafana and React}{the front-end is divided into two parts. The dashboard uses Grafana to display data sent by devices, with the ability to filter and view past data. The portal with information about devices, users, and alarms is displayed through an application developed in React.}
+    \resumeItem{Automated Deployment}{the entire cloud infrastructure and front-end application are deployed through an automated process created using GitHub Actions.}
+    \resumeItem{Thesis}{the design and development of the entire application were documented in my bachelor's thesis.}
+  \resumeItemListEnd
   \resumeSubItem{\href{https://github.com/MatteoCalvanico/Mobile24-CalvanicoMonti-GameVault}{Game Vault}}
       {Android app for tracking your game collection, with rating and search capabilities.}
   \resumeItemListStart
